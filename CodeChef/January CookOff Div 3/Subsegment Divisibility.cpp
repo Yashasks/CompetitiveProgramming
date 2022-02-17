@@ -1,4 +1,4 @@
-	
+    
 
 /*
     ***************************
@@ -101,16 +101,28 @@ int main(){
     while(t--){
         
     //code ...
-    	int n;cin>>n;
-    	
-    	float a[n];
-    	for(int i=0;i<n;i++)cin>>a[i];
-    		
-    	sort(a, a+n);
-    	float i=accumulate(a, a+n-1, 0.000);
-    	float j=a[n-1];
-    	
-    	cout<<setprecision(6)<<fixed<<i+j<<endl;
+        int n;cin>>n;
+        int a[n];
+        int l=1, m=2;
+        if(n==1){cout<<1<<endl; continue;}
+        else if(n==2){cout<<"2 3\n"; continue;}
+        cout<<1<<" "<<2<<" ";
+        
+        for(int i=0;i<n-2;i++){
+            if(i%2==0){
+                    l+=4;
+                    cout<<l<<" ";
+                    
+            }
+            else{m+=4;
+                    cout<<m<<" ";
+                    
+                    
+            }
+        }
+        cout<<endl;
+        
+        
 
     }
     return 0;
