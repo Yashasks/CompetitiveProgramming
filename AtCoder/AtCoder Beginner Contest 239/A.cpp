@@ -14,7 +14,7 @@
 #include <cmath>
 #include <vector>
 #include <set>
-#include <iomanip>
+#include <map>
 #include <unordered_set>
 #include <unordered_map>
 #include <queue>
@@ -25,7 +25,7 @@
 #include <cstring>
 #include <chrono>
 #include <random>
-#include <map>
+#include <bitset>
 
 /*#include<ext/pb_ds/assoc_container.hpp>
 #include<ext/pb_ds/tree_policy.hpp>
@@ -96,15 +96,11 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL); cout.tie(NULL);
     int t;
-t=1;
+    cin>>t;
     //test case
     while(t--){
         
     //code ...
-        int n;cin>>n;
-        long long b=(12800000+n);
-        double a=sqrt(b)*sqrt(n);
-        cout<<setprecision(8)<<fixed<<a<<endl;
 
     }
     return 0;
