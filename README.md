@@ -1,5 +1,5 @@
 # CompetitiveProgramming
-- CodeChef Handle:- https://www.codechef.com/users/yashas_k_s
+- CodeChef Handle:- https://www.codechef.com/users/ksyr2001
 - CodeForces Handle:- https://codeforces.com/profile/yashas_rao
 - AtCoder Handle:-https://atcoder.jp/users/yashas_rao
 - Hackerrank:- https://www.hackerrank.com/yashasraoks
