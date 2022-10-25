@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int f(string s1, string s2, int i, int j, vector<vector<int>> &dp){
+    int f(string &s1, string &s2, int i, int j, vector<vector<int>> &dp){
         if(j<0)return i+1;
         if(i<0)return j+1;
         
