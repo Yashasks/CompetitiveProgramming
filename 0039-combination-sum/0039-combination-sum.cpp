@@ -1,7 +1,6 @@
 class Solution {
    
 public:
-    
     void f(vector<int> &candidates, int t, int i, vector<int> &ds, vector<vector<int>>&ans, int n){
         if(t==0){
             ans.push_back(ds);
@@ -15,10 +14,7 @@ public:
             ds.push_back(candidates[i]);
             f(candidates, t-candidates[i], i, ds, ans, n);
             ds.pop_back();
-        }
-        
-        
-        
+        } 
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         int n=candidates.size();
